@@ -1,0 +1,192 @@
+@font-face {
+    font-family: 'Avenir Next LT Pro';
+    src: url('../fonts/custom/AvenirNextLTPro-Light.eot');
+    src: url('../fonts/custom/AvenirNextLTPro-Light.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/custom/AvenirNextLTPro-Light.woff2') format('woff2'),
+        url('../fonts/custom/AvenirNextLTPro-Light.woff') format('woff'),
+        url('../fonts/custom/AvenirNextLTPro-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Avenir Next LT Pro';
+    src: url('../fonts/custom/AvenirNextLTPro-LightItalic.eot');
+    src: url('../fonts/custom/AvenirNextLTPro-LightItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/custom/AvenirNextLTPro-LightItalic.woff2') format('woff2'),
+        url('../fonts/custom/AvenirNextLTPro-LightItalic.woff') format('woff'),
+        url('../fonts/custom/AvenirNextLTPro-LightItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Avenir Next LT Pro';
+    src: url('../fonts/custom/AvenirNextLTPro.eot');
+    src: url('../fonts/custom/AvenirNextLTPro.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/custom/AvenirNextLTPro.woff2') format('woff2'),
+        url('../fonts/custom/AvenirNextLTPro.woff') format('woff'),
+        url('../fonts/custom/AvenirNextLTPro.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Avenir Next LT Pro';
+    src: url('../fonts/custom/AvenirNext-DemiBold.eot');
+    src: url('../fonts/custom/AvenirNext-DemiBold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/custom/AvenirNext-DemiBold.woff2') format('woff2'),
+        url('../fonts/custom/AvenirNext-DemiBold.woff') format('woff'),
+        url('../fonts/custom/AvenirNext-DemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Avenir Next LT Pro';
+    src: url('../fonts/custom/AvenirNextLTPro-Bold.eot');
+    src: url('../fonts/custom/AvenirNextLTPro-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/custom/AvenirNextLTPro-Bold.woff2') format('woff2'),
+        url('../fonts/custom/AvenirNextLTPro-Bold.woff') format('woff'),
+        url('../fonts/custom/AvenirNextLTPro-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'DIN Next LT Arabic';
+    src: url('../fonts/custom/DINNextLTArabic-Heavy.eot');
+    src: url('../fonts/custom/DINNextLTArabic-Heavy.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/custom/DINNextLTArabic-Heavy.woff2') format('woff2'),
+        url('../fonts/custom/DINNextLTArabic-Heavy.woff') format('woff'),
+        url('../fonts/custom/DINNextLTArabic-Heavy.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'BrownPro Alternate';
+    src: url('../fonts/custom/BrownPro-BoldAlt.eot');
+    src: url('../fonts/custom/BrownPro-BoldAlt.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/custom/BrownPro-BoldAlt.woff2') format('woff2'),
+        url('../fonts/custom/BrownPro-BoldAlt.woff') format('woff'),
+        url('../fonts/custom/BrownPro-BoldAlt.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'DIN Next LT Arabic';
+    src: url('../fonts/custom/DINNextLTArabic-Medium.eot');
+    src: url('../fonts/custom/DINNextLTArabic-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/custom/DINNextLTArabic-Medium.woff2') format('woff2'),
+        url('../fonts/custom/DINNextLTArabic-Medium.woff') format('woff'),
+        url('../fonts/custom/DINNextLTArabic-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'BrownPro';
+    src: url('../fonts/custom/BrownPro-Light.eot');
+    src: url('../fonts/custom/BrownPro-Light.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/custom/BrownPro-Light.woff2') format('woff2'),
+        url('../fonts/custom/BrownPro-Light.woff') format('woff'),
+        url('../fonts/custom/BrownPro-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'BrownPro';
+    src: url('../fonts/custom/BrownPro-Bold.eot');
+    src: url('../fonts/custom/BrownPro-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/custom/BrownPro-Bold.woff2') format('woff2'),
+        url('../fonts/custom/BrownPro-Bold.woff') format('woff'),
+        url('../fonts/custom/BrownPro-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'DIN Next LT Arabic';
+    src: url('../fonts/custom/DINNextLTArabic-Bold.eot');
+    src: url('../fonts/custom/DINNextLTArabic-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/custom/DINNextLTArabic-Bold.woff2') format('woff2'),
+        url('../fonts/custom/DINNextLTArabic-Bold.woff') format('woff'),
+        url('../fonts/custom/DINNextLTArabic-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Hacen Casablanca';
+    src: url('../fonts/custom/HacenCasablancaLight.eot');
+    src: url('../fonts/custom/HacenCasablancaLight.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/custom/HacenCasablancaLight.woff2') format('woff2'),
+        url('../fonts/custom/HacenCasablancaLight.woff') format('woff'),
+        url('../fonts/custom/HacenCasablancaLight.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'DIN Next LT Arabic';
+    src: url('../fonts/custom/DINNextLTArabic-Regular.eot');
+    src: url('../fonts/custom/DINNextLTArabic-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/custom/DINNextLTArabic-Regular.woff2') format('woff2'),
+        url('../fonts/custom/DINNextLTArabic-Regular.woff') format('woff'),
+        url('../fonts/custom/DINNextLTArabic-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Hacen Beirut Lt X3';
+    src: url('../fonts/custom/HacenBeirutLtX3.eot');
+    src: url('../fonts/custom/HacenBeirutLtX3.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/custom/HacenBeirutLtX3.woff2') format('woff2'),
+        url('../fonts/custom/HacenBeirutLtX3.woff') format('woff'),
+        url('../fonts/custom/HacenBeirutLtX3.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'DIN Next LT Arabic';
+    src: url('../fonts/custom/DINNextLTArabic-Black.eot');
+    src: url('../fonts/custom/DINNextLTArabic-Black.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/custom/DINNextLTArabic-Black.woff2') format('woff2'),
+        url('../fonts/custom/DINNextLTArabic-Black.woff') format('woff'),
+        url('../fonts/custom/DINNextLTArabic-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'DIN Next LT Arabic';
+    src: url('../fonts/custom/DINNextLTArabic-Light.eot');
+    src: url('../fonts/custom/DINNextLTArabic-Light.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/custom/DINNextLTArabic-Light.woff2') format('woff2'),
+        url('../fonts/custom/DINNextLTArabic-Light.woff') format('woff'),
+        url('../fonts/custom/DINNextLTArabic-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
