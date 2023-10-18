@@ -282,3 +282,26 @@ border-left: solid 1px #fff;
 }
 	
 }
+@media screen and (max-width: 767px) {
+.navbar-concept {
+    margin-top: -30px;
+}
+	.h5, h5 {
+    font-size: 0.8rem;
+}
+	.banner h6 {
+    font-size: 17px;
+}
+	.banner h3 {
+    font-size: 24px;
+}
+	.h4, h4 {
+    font-size: 19px;
+}
+	.btn-subscribe {
+    margin-top: 6px;
+}
+	.custom-input-subscribe {
+    width: 100%;
+}
+}
