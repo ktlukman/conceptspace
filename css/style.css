@@ -2,6 +2,7 @@
 	--primary-color-concept:#193c37;
 	--secondary-color-concept:#343738;
 	--third-color-concept:#3C3C3B;
+	--fourth-color-concept:#607973;
 }
 body{
 	font-family: "Avenir Next LT Pro";
@@ -18,6 +19,9 @@ body{
     padding: 0 26px 3px 26px;
     margin-bottom: -2px;
 	font-size: 14px;
+}
+.navbar-concept .nav-item .nav-link:hover, .navbar-concept .nav-item .nav-link:hover, .nav-item .nav-link.active{
+	font-weight: 600;
 }
 .navbar-concept .nav-item .nav-link::after {
     content: " ";
@@ -88,7 +92,10 @@ body{
     transform: translateY(-50%);
 }
 .custom-dropdown {
-    background-color: var(--primary-color-concept);
+    background-color: var(--fourth-color-concept);
+}
+.custom-dropdown .dropdown-item:hover, .custom-dropdown .dropdown-item:focus{
+	background-color: var(--primary-color-concept);
 }
 .custom-dropdown .dropdown-item.active, .custom-dropdown .dropdown-item:active {
     background-color: var(--bs-dropdown-link-hover-bg);
@@ -187,7 +194,7 @@ body{
     font-size: 1.13rem;
 }
 .btn-cards:focus, .btn-cards:hover {
-    background-color: #607973;
+    background-color: var(--primary-color-concept);;
 }
 .btn-cards.btn-check:checked+.btn, .btn-cards.btn.active, .btn-cards.btn.show, .btn-cards.btn:first-child:active, :not(.btn-cards)+.btn-cards.btn:active{
 	background-color: #607973;
@@ -230,7 +237,11 @@ body{
     width: unset;
     padding: 9px 14px;
     font-size: 13px;
-    margin-top: -3px;
+    margin-top: -4px;
+    margin-left: -5px;
+}
+.btn-subscribe:hover, .btn-subscribe:focus{
+	background-color: var(--primary-color-concept);
 }
 .footer{
 	background-color: var(--primary-color-concept);
@@ -299,9 +310,30 @@ border-left: solid 1px #fff;
     font-size: 19px;
 }
 	.btn-subscribe {
-    margin-top: 6px;
+/*    margin-top: 6px;*/
+		margin-left: -5px;
 }
 	.custom-input-subscribe {
-    width: 100%;
+    width: 50%;
 }
+	.text-left-m{
+		text-align: left !important;
+	}
+}
+@media screen and (max-width: 372px) {
+	.search-text{
+		width: 50% !important;
+	}
+.input-group-custom .form-control {
+    font-size: 11px;
+}
+	.social-links {
+    width: 23px;
+    height: 23px;
+    line-height: 25px;
+    margin-right: 0 !important;
+}
+	.search-text-end{
+		text-align: center !important;
+	}
 }
