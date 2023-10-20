@@ -360,11 +360,13 @@ border-left: solid 1px #fff;
     font-size: 19px;
 }
 	.btn-subscribe {
-/*    margin-top: 6px;*/
+    margin-top: -2px;
 		margin-left: -5px;
 }
-	.custom-input-subscribe {
+.custom-input-subscribe {
     width: 50%;
+    font-size: 11px;
+    padding: 9px 5px;
 }
 	.text-left-m{
 		text-align: left !important;
@@ -378,6 +380,9 @@ border-left: solid 1px #fff;
 		padding: 0 50px;
 	}
 */
+	.text-center-m{
+		text-align: center;
+	}
 }
 @media screen and (max-width: 372px) {
 	.search-text{
