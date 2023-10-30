@@ -325,6 +325,15 @@ border-left: solid 1px #fff;
 	resize: none;
 	height: 70px;
 }
+.gl-lg-items {
+    background-color: #E3E3E3;
+    max-width: 150px;
+    display: inline-block;
+    text-align: left;
+}
+.gl-lg-items h1{
+	font-size: 6rem;
+}
 @media screen and (max-width: 1200px) {
 .navbar-concept .nav-item .nav-link {
     padding: 0 15px 3px 15px;
