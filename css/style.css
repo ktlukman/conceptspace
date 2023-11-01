@@ -4,6 +4,10 @@
 	--third-color-concept:#3C3C3B;
 	--fourth-color-concept:#607973;
 }
+html{
+	overflow-x: hidden;
+	overflow-y: scroll;
+}
 body{
 	font-family: "Avenir Next LT Pro";
 	font-size: 13px;
@@ -333,6 +337,11 @@ border-left: solid 1px #fff;
 }
 .gl-lg-items h1{
 	font-size: 6rem;
+}
+.fill-w{
+	background-color: var(--fourth-color-concept);
+	height: 100%;
+	width: 100%;
 }
 @media screen and (max-width: 1200px) {
 .navbar-concept .nav-item .nav-link {
