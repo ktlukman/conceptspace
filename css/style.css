@@ -152,16 +152,6 @@ body{
 	font-weight: 600;
 }
 
-.middle-text {
-    position: absolute;
-    top: 50%;
-    left: 0;
-    transform: translateY(-50%);
-    z-index: 9;
-	text-align: center;
-	width: 100%;
-	color: #fff;
-}
 .gallery{
 	overflow: hidden;
 }
@@ -342,6 +332,89 @@ border-left: solid 1px #fff;
 	background-color: var(--fourth-color-concept);
 	height: 100%;
 	width: 100%;
+}
+.gl-ex-panel{
+	position: relative;
+	padding: 28.5% 0;
+}
+.grids{
+	position: absolute;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #fff;
+	font-size: 1.5vw;
+	font-weight: 600;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	cursor: pointer;
+}
+.grid-1 {
+    left: 0;
+    top: 0;
+    width: 40.90%;
+    height: 54.10%;
+    background-image: url("../img/gl-1.jpg");
+}
+.grid-2 {
+    left: 0;
+    top: 54.10%;
+    width: 40.90%;
+    height: 45.90%;
+    background-image: url("../img/gl-2.jpg");
+}
+.grid-3 {
+    left: 40.90%;
+    top: 0;
+    width: 27.20%;
+    height: 64.70%;
+    background-color: #a6bdb7;
+}
+.grid-4 {
+    left: 40.90%;
+    top: 64.70%;
+    width: 27.30%;
+    height: 35.30%;
+    background-image: url("../img/gl-3.jpg");
+}
+.grid-5 {
+    right: 0%;
+    top: 0%;
+    width: 31.90%;
+    height: 26.30%;
+    background-image: url("../img/gl-4.jpg");
+}
+.grid-6 {
+    right: 0%;
+    top: 26.20%;
+    width: 31.90%;
+    height: 51.10%;
+    background-image: url("../img/gl-5.jpg");
+}
+.grid-7 {
+    right: 0%;
+    bottom: 0%;
+    width: 31.90%;
+    height: 22.80%;
+    background-color: #607973;
+}
+.middle-text {
+	font-weight: 300;
+	color: #101010;
+	font-size: 2vw;
+}
+.middle-text small{
+	font-size: 1.3vw;
+}
+.middle-text2 {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    z-index: 99;
+    color: #fff;
+    font-weight: 600;
+    width: 100%;
+    transform: translateY(-50%);
 }
 @media screen and (max-width: 1200px) {
 .navbar-concept .nav-item .nav-link {
