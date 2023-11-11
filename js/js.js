@@ -56,6 +56,13 @@ $(document).ready(function(){
         $(this).children(".grid-body").slideUp();
       });
 
+      if ($(window).width() > 991) {
+        $(".nav-item.dropdown").mouseenter(function () {
+          var navWidth = $(this).width();
+          $(this).children(".custom-dropdown").css({"width":navWidth+"px"});
+        });
+      }
+
 	
 });
 
