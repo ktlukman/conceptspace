@@ -30,8 +30,32 @@ $(document).ready(function(){
         }
       });
 	
+      //$(".custom-dropdown, .dropdown-toggle").popover({ trigger: "hover" });
+     
 
-	
+      $(".dropdown-toggle").mouseenter(function () { 
+        $(this).addClass("show");
+        $(this).next(".dropdown-menu").addClass("show");
+      });
+      $(".dropdown").mouseleave(function () { 
+        //$(this).removeClass("show");
+        $(this).children(".dropdown-menu").removeClass("show");
+      }); 
+      /* $(".dropdown-menu").mouseleave(function () {
+        if($(this).hasClass("show")){
+          $(this).removeClass("show");
+        }
+      }); */
+
+      $(".grids").mouseenter(function () {
+        $(this).children(".grid-head").slideUp();
+        $(this).children(".grid-body").slideDown();
+      });
+      $(".grids").mouseleave(function () {
+        $(this).children(".grid-head").slideDown();
+        $(this).children(".grid-body").slideUp();
+      });
+
 	
 });
 
