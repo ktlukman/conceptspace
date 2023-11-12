@@ -429,6 +429,9 @@ border-left: solid 1px #fff;
 .grid-body small a{
 	font-weight: 600;
 }
+.slider-concept-logos .carousel-item img {
+    max-width: 44%;
+}
 @media screen and (max-width: 1528px) {
 	.navbar-concept .nav-item .nav-link {
 		padding: 0 40px 3px 40px;
