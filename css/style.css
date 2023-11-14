@@ -290,7 +290,7 @@ border-left: solid 1px #fff;
 .hello-form {
     background-color: var(--primary-color-concept);
     display: flex;
-    padding: 30px;
+    padding: 50px 30px 30px 30px;
     /* flex-wrap: nowrap; */
     flex-direction: column;
     align-items: start;
