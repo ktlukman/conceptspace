@@ -631,6 +631,9 @@ border-left: solid 1px #fff;
 .py-sm-ed{
 	padding: 0 60px;
 }
+.gl-ex-panel {
+    min-height: 1300px;
+}
 }
 @media screen and (max-width: 372px) {
 	.search-text{
@@ -647,5 +650,8 @@ border-left: solid 1px #fff;
 }
 	.search-text-end{
 		text-align: center !important;
+	}
+	.gl-ex-panel {
+		min-height: 1100px;
 	}
 }
