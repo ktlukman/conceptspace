@@ -85,7 +85,7 @@ body{
 .header-logo {
     width: 150px;
     position: relative;
-    z-index: 9;
+    z-index: 99;
 }
 .banner-text {
     color: #fff;
@@ -435,6 +435,11 @@ border-left: solid 1px #fff;
 .d-block-676{
 	display: none;
 }
+.custom-cards .card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
 @media screen and (max-width: 1528px) {
 	.navbar-concept .nav-item .nav-link {
 		padding: 0 40px 3px 40px;
@@ -483,9 +488,9 @@ border-left: solid 1px #fff;
 	}
 }
 @media screen and (max-width: 767px) {
-.navbar-concept {
-    margin-top: -30px;
-}
+	/* .navbar-concept {
+		margin-top: -97px;
+	} */
 	.h5, h5 {
     font-size: 0.8rem;
 }
@@ -532,6 +537,94 @@ border-left: solid 1px #fff;
 }
 	.gl-lg-items {
     min-width: 150px;
+}
+.search-text-end {
+    position: absolute;
+    width: 100%;
+    text-align: center !important;
+    z-index: 9;
+    left: 0;
+    top: 0;
+    min-height: 145px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.navbar-concept .navbar-toggler {
+    margin-top: -67px;
+}
+/* .header-logo {
+    margin-bottom: 32px;
+} */
+.flex-wrap-no-wrap-mob{
+	flex-wrap: nowrap;
+	overflow-y: hidden;
+	overflow-x: scroll;
+	padding-bottom: 30px;
+	margin: 0 10px;
+}
+.flex-wrap-no-wrap-mob::-webkit-scrollbar {
+    height: 12px;
+	background-color: rgba(0, 0, 0, .1);
+}
+
+.flex-wrap-no-wrap-mob::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, .3);
+}
+.slider-concept2 {
+    padding: 0 0;
+}
+.gl-ex-panel {
+    padding: 0 0;
+    min-height: 1599px;
+}
+.grid-1 {
+    width: 100%;
+	height: 23.6%;
+	background-position: center;
+}
+.grid-5 {
+    left: unset;
+    top: 23.6%;
+    width: 50%;
+    height: 8.6%;
+    right: 0;
+}
+.grid-6 {
+    left: unset;
+    top: 32.2%;
+    width: 50%;
+    height: 16.8%;
+    right: 0;
+}
+.grid-7 {
+    left: unset;
+    top: 49%;
+    width: 50%;
+    height: 9.1%;
+    right: 0;
+}
+.grid-3 {
+    left: 0;
+    top: 23.6%;
+    width: 50%;
+    height: 20.5%;
+}
+.grid-4 {
+    left: 0;
+    top: 44.1%;
+    width: 50%;
+    height: 14%;
+}
+.grid-2 {
+    width: 100%;
+    height: 17.6%;
+    background-position: center;
+    /* bottom: 0; */
+    top: 58.1%;
+}
+.gl-mobid{
+		max-height: 1230px;
 }
 }
 @media screen and (max-width: 572px) {
