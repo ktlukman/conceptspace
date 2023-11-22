@@ -440,6 +440,147 @@ border-left: solid 1px #fff;
     flex-direction: column;
     justify-content: space-between;
 }
+.interior-grid .grid-1{
+	/* background-image: url("../img/interior/1.jpg"); */
+	background:linear-gradient( rgba(0, 0, 0, 0.4) 100%, rgba(0, 0, 0, 0.4)100%),url("../img/interior/5.jpg");
+	background-size: 121%;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.interior-grid .grid-2{
+	/* background-image: url("../img/interior/1.jpg"); */
+	background:linear-gradient( rgba(0, 0, 0, 0.4) 100%, rgba(0, 0, 0, 0.4)100%),url("../img/interior/2.jpg");
+	background-size: 100% 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.interior-grid .grid-4{
+	/* background-image: url("../img/interior/1.jpg"); */
+	background:linear-gradient( rgba(0, 0, 0, 0.4) 100%, rgba(0, 0, 0, 0.4)100%),url("../img/interior/6.jpg");
+	background-size: 150%;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.interior-grid .grid-5{
+	/* background-image: url("../img/interior/1.jpg"); */
+	background:linear-gradient( rgba(0, 0, 0, 0.4) 100%, rgba(0, 0, 0, 0.4)100%),url("../img/interior/1.jpg");
+	background-size: 100% 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.interior-grid .grid-6{
+	/* background-image: url("../img/interior/1.jpg"); */
+	background:linear-gradient( rgba(0, 0, 0, 0.4) 100%, rgba(0, 0, 0, 0.4)100%),url("../img/interior/4.jpg");
+	background-size: 114% 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.interior-grid .grid-7{
+	/* background-image: url("../img/interior/1.jpg"); */
+	background:linear-gradient( rgba(0, 0, 0, 0.4) 100%, rgba(0, 0, 0, 0.4)100%),url("../img/interior/3.jpg");
+	background-size: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.photoshoot-grids .grid-1{
+	background:linear-gradient( rgba(0, 0, 0, 0.4) 100%, rgba(0, 0, 0, 0.4)100%),url("../img/photoshoots/4.jpg");
+	background-size: 100%;
+    background-position: center 65%;
+    background-repeat: no-repeat;
+}
+.photoshoot-grids .grid-2{
+	background:linear-gradient( rgba(0, 0, 0, 0.4) 100%, rgba(0, 0, 0, 0.4)100%),url("../img/photoshoots/3.jpg");
+	background-size: 233%;
+    background-position: right 41%;
+    background-repeat: no-repeat;
+}
+.photoshoot-grids .grid-5{
+	background:linear-gradient( rgba(0, 0, 0, 0.4) 100%, rgba(0, 0, 0, 0.4)100%),url("../img/photoshoots/2.jpg");
+	background-size: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.photoshoot-grids .grid-6{
+	background:linear-gradient( rgba(0, 0, 0, 0.4) 100%, rgba(0, 0, 0, 0.4)100%),url("../img/photoshoots/1.jpg");
+	background-size: 100% 108%;
+    background-position: center 361%;
+    background-repeat: no-repeat;
+}
+.eventdecor-grids .grid-1{
+	background:linear-gradient( rgba(0, 0, 0, 0.4) 100%, rgba(0, 0, 0, 0.4)100%),url("../img/eventdecor/1.jpg");
+	background-size: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.eventdecor-grids .grid-2{
+	background:linear-gradient( rgba(0, 0, 0, 0.4) 100%, rgba(0, 0, 0, 0.4)100%),url("../img/eventdecor/2.jpg");
+	background-size: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.eventdecor-grids .grid-5{
+	background:linear-gradient( rgba(0, 0, 0, 0.4) 100%, rgba(0, 0, 0, 0.4)100%),url("../img/eventdecor/3.jpg");
+	background-size: 100% 166%;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+}
+.eventdecor-grids .grid-6{
+	background:linear-gradient( rgba(0, 0, 0, 0.4) 100%, rgba(0, 0, 0, 0.4)100%),url("../img/eventdecor/4.jpg");
+	background-size: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.eventdecor-grids2 .grid-1{
+	background:linear-gradient( rgba(0, 0, 0, 0.4) 100%, rgba(0, 0, 0, 0.4)100%),url("../img/eventdecor/6.jpg");
+	background-size: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.eventdecor-grids2 .grid-2{
+	background:linear-gradient( rgba(0, 0, 0, 0.4) 100%, rgba(0, 0, 0, 0.4)100%),url("../img/eventdecor/7.jpg");
+	background-size: 100%;
+    background-position: center 63%;
+    background-repeat: no-repeat;
+}
+.eventdecor-grids2 .grid-5{
+	background:linear-gradient( rgba(0, 0, 0, 0.4) 100%, rgba(0, 0, 0, 0.4)100%),url("../img/eventdecor/8.jpg");
+	background-size: 100% 166%;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+}
+.eventdecor-grids2 .grid-6{
+	background:linear-gradient( rgba(0, 0, 0, 0.4) 100%, rgba(0, 0, 0, 0.4)100%),url("../img/eventdecor/9.jpg");
+	background-size: 100%;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+}
+.branding-design-grids .grid-1{
+	background:linear-gradient( rgba(0, 0, 0, 0.1) 100%, rgba(0, 0, 0, 0.1)100%),url("../img/brandingdesign/2.jpg");
+	background-size: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+	height: 40%;
+}
+.branding-design-grids .grid-2{
+	background:linear-gradient( rgba(0, 0, 0, 0.1) 100%, rgba(0, 0, 0, 0.1)100%),url("../img/brandingdesign/1.jpg");
+	background-size: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+	top: 40%;
+    height: 24.6%;
+}
+.branding-design-grids .grid-5{
+	background:linear-gradient( rgba(0, 0, 0, 0.1) 100%, rgba(0, 0, 0, 0.1)100%),url("../img/brandingdesign/5.jpg");
+	background-size: 100% 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.branding-design-grids .grid-6{
+	background:linear-gradient( rgba(0, 0, 0, 0.1) 100%, rgba(0, 0, 0, 0.1)100%),url("../img/brandingdesign/4.jpg");
+	background-size: 100%;
+    background-position: center 28%;
+    background-repeat: no-repeat;
+}
 @media screen and (max-width: 1528px) {
 	.navbar-concept .nav-item .nav-link {
 		padding: 0 40px 3px 40px;
