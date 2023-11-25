@@ -8,7 +8,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     $message = $_POST["message"];
 
     // Send an email (You should configure your server's email settings)
-    $to = "ktlukman@gmail.com"; // Replace with the recipient's email address
+    $to = "concept.space.design@gmail.com"; // Replace with the recipient's email address
     $subject = "New Form Submission from $name $lastName";
     $messageBody = "Name: $name $lastName\nEmail: $email\nPhone Number: $phoneNumber\nMessage: $message";
 

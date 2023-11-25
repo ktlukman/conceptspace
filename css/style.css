@@ -558,6 +558,15 @@ border-left: solid 1px #fff;
 .eventdecor-grid3 .grid-6{
 	background-image:url("../img/eventdecor/18.jpg");
 }
+.eventdecor-grid4 .grid-1{
+	background-image:url("../img/eventdecor/19.jpg");
+}
+.eventdecor-grid4 .grid-2{
+	background-image:url("../img/eventdecor/20.jpg");
+}
+.eventdecor-grid4 .grid-6{
+	background-image:url("../img/eventdecor/21.jpg");
+}
 .brandingdesign-grids3 .grid-1{
 	background-image:url("../img/brandingdesign/2.jpg");
 }
@@ -607,6 +616,10 @@ border-left: solid 1px #fff;
 }
 .slider-concept3 .carousel-item img {
 	max-width: unset;
+}
+.eapps-instagram-feed-header{
+	margin-bottom: 0 !important;
+	padding: 0 !important;
 }
 @media screen and (max-width: 1528px) {
 	.navbar-concept .nav-item .nav-link {
