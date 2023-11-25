@@ -482,78 +482,93 @@ border-left: solid 1px #fff;
     background-position: center center;
     background-repeat: no-repeat;
 }
+.photoshoot-grids{
+	/* min-height: 1077px;
+	max-height: 1077px; */
+	padding: 28.1% 0;
+	position: relative;
+	width: 100%;
+}
 .photoshoot-grids .grid-1{
-	background:linear-gradient( rgba(0, 0, 0, 0.4) 100%, rgba(0, 0, 0, 0.4)100%),url("../img/photoshoots/4.jpg");
+	background:linear-gradient( rgba(0, 0, 0, 0.1) 100%, rgba(0, 0, 0, 0.1)100%),url("../img/photoshoots/4.jpg");
 	background-size: 100%;
-    background-position: center 65%;
     background-repeat: no-repeat;
+	width: 40.2%;
+	height: 54.7%;
+	left: 0;
+	top: 0;
 }
 .photoshoot-grids .grid-2{
-	background:linear-gradient( rgba(0, 0, 0, 0.4) 100%, rgba(0, 0, 0, 0.4)100%),url("../img/photoshoots/3.jpg");
-	background-size: 233%;
-    background-position: right 41%;
+	background:linear-gradient( rgba(0, 0, 0, 0.1) 100%, rgba(0, 0, 0, 0.1)100%),url("../img/photoshoots/3.jpg");
+	background-size: 100%;
     background-repeat: no-repeat;
+	width: 40.2%;
+	top: 54.7%;
+	left: 0;
+	height: 45.3%;
+}
+.photoshoot-grids .grid-3{
+	width: 26.8%;
+	top: 0;
+	left: 40.2%;
+	height: 65.1%;
+}
+.photoshoot-grids .grid-4{
+	width: 26.8%;
+	top: 65.1%;
+	left: 40.2%;
+	height: 34.9%;
+	background-image: none;
+	background-color: var(--primary-color-concept);
 }
 .photoshoot-grids .grid-5{
-	background:linear-gradient( rgba(0, 0, 0, 0.4) 100%, rgba(0, 0, 0, 0.4)100%),url("../img/photoshoots/2.jpg");
-	background-size: 100%;
-    background-position: center center;
-    background-repeat: no-repeat;
+	width: 33%;
+	top: 0;
+	left: unset;
+	right: 0;
+	height: 28.2%;
+	background-image: none;
+	background-color: var(--primary-color-concept);
 }
 .photoshoot-grids .grid-6{
-	background:linear-gradient( rgba(0, 0, 0, 0.4) 100%, rgba(0, 0, 0, 0.4)100%),url("../img/photoshoots/1.jpg");
-	background-size: 100% 108%;
-    background-position: center 361%;
-    background-repeat: no-repeat;
-}
-.eventdecor-grids .grid-1{
-	background:linear-gradient( rgba(0, 0, 0, 0.4) 100%, rgba(0, 0, 0, 0.4)100%),url("../img/eventdecor/1.jpg");
+	background:linear-gradient( rgba(0, 0, 0, 0.1) 100%, rgba(0, 0, 0, 0.1)100%),url("../img/photoshoots/1.jpg");
 	background-size: 100%;
-    background-position: center center;
     background-repeat: no-repeat;
+	width: 33%;
+	top: 28.2%;
+	left: unset;
+	right: 0;
+	height: 52.9%;
 }
-.eventdecor-grids .grid-2{
-	background:linear-gradient( rgba(0, 0, 0, 0.4) 100%, rgba(0, 0, 0, 0.4)100%),url("../img/eventdecor/2.jpg");
-	background-size: 100%;
-    background-position: center center;
-    background-repeat: no-repeat;
+.photoshoot-grids .grid-7{
+	width: 33%;
+	top: 81.1%;
+	left: unset;
+	right: 0;
+	height: 18.9%;
+	background-image: none;
+	background-color: #b7b7b8;
 }
-.eventdecor-grids .grid-5{
-	background:linear-gradient( rgba(0, 0, 0, 0.4) 100%, rgba(0, 0, 0, 0.4)100%),url("../img/eventdecor/3.jpg");
-	background-size: 100% 166%;
-    background-position: center bottom;
-    background-repeat: no-repeat;
+.eventdecor-grid3 .grid-1{
+	background:linear-gradient( rgba(0, 0, 0, 0.1) 100%, rgba(0, 0, 0, 0.1)100%),url("../img/eventdecor/16.jpg");
 }
-.eventdecor-grids .grid-6{
-	background:linear-gradient( rgba(0, 0, 0, 0.4) 100%, rgba(0, 0, 0, 0.4)100%),url("../img/eventdecor/4.jpg");
-	background-size: 100%;
-    background-position: center center;
-    background-repeat: no-repeat;
+.eventdecor-grid3 .grid-2{
+	background:linear-gradient( rgba(0, 0, 0, 0.1) 100%, rgba(0, 0, 0, 0.1)100%),url("../img/eventdecor/17.jpg");
 }
-.eventdecor-grids2 .grid-1{
-	background:linear-gradient( rgba(0, 0, 0, 0.4) 100%, rgba(0, 0, 0, 0.4)100%),url("../img/eventdecor/6.jpg");
-	background-size: 100%;
-    background-position: center center;
-    background-repeat: no-repeat;
+.eventdecor-grid3 .grid-6{
+	background:linear-gradient( rgba(0, 0, 0, 0.1) 100%, rgba(0, 0, 0, 0.1)100%),url("../img/eventdecor/18.jpg");
 }
-.eventdecor-grids2 .grid-2{
-	background:linear-gradient( rgba(0, 0, 0, 0.4) 100%, rgba(0, 0, 0, 0.4)100%),url("../img/eventdecor/7.jpg");
-	background-size: 100%;
-    background-position: center 63%;
-    background-repeat: no-repeat;
+.brandingdesign-grids3 .grid-1{
+	background:linear-gradient( rgba(0, 0, 0, 0.1) 100%, rgba(0, 0, 0, 0.1)100%),url("../img/brandingdesign/2.jpg");
 }
-.eventdecor-grids2 .grid-5{
-	background:linear-gradient( rgba(0, 0, 0, 0.4) 100%, rgba(0, 0, 0, 0.4)100%),url("../img/eventdecor/8.jpg");
-	background-size: 100% 166%;
-    background-position: center bottom;
-    background-repeat: no-repeat;
+.brandingdesign-grids3 .grid-2{
+	background:linear-gradient( rgba(0, 0, 0, 0.1) 100%, rgba(0, 0, 0, 0.1)100%),url("../img/brandingdesign/1.jpg");
 }
-.eventdecor-grids2 .grid-6{
-	background:linear-gradient( rgba(0, 0, 0, 0.4) 100%, rgba(0, 0, 0, 0.4)100%),url("../img/eventdecor/9.jpg");
-	background-size: 100%;
-    background-position: center 136%;
-    background-repeat: no-repeat;
+.brandingdesign-grids3 .grid-6{
+	background:linear-gradient( rgba(0, 0, 0, 0.1) 100%, rgba(0, 0, 0, 0.1)100%),url("../img/brandingdesign/4.jpg");
 }
+
+
 .branding-design-grids .grid-1{
 	background:linear-gradient( rgba(0, 0, 0, 0.1) 100%, rgba(0, 0, 0, 0.1)100%),url("../img/brandingdesign/2.jpg");
 	background-size: 100%;
@@ -581,7 +596,7 @@ border-left: solid 1px #fff;
     background-position: center 28%;
     background-repeat: no-repeat;
 }
-.prlinks-bx {
+/* .prlinks-bx {
     background-color: #607973;
     width: 100%;
     display: flex;
@@ -595,9 +610,28 @@ border-left: solid 1px #fff;
     gap: 10px;
 	padding: 0 7px;
 }
+
 .prlinks-bx-w{
 	color: #000;
 	background-color: #f5f5f5;
+} */
+.prlinks-bx {
+    background-color: #eee;
+	display: inline-block;
+	color: #fff;
+	text-decoration: none;
+	text-align: center;
+}
+.prlinks-bx h5 {
+    background-color: var(--primary-color-concept);
+    margin: 0;
+    padding: 0 10px;
+    min-height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+	font-weight: 400;
+	font-size: 16px;
 }
 .slider-concept3 .carousel-item img {
 	max-width: unset;
