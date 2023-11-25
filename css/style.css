@@ -490,7 +490,7 @@ border-left: solid 1px #fff;
 	width: 100%;
 }
 .photoshoot-grids .grid-1{
-	background:linear-gradient( rgba(0, 0, 0, 0.1) 100%, rgba(0, 0, 0, 0.1)100%),url("../img/photoshoots/4.jpg");
+	background-image:url("../img/photoshoots/4.jpg");
 	background-size: 100%;
     background-repeat: no-repeat;
 	width: 40.2%;
@@ -499,11 +499,11 @@ border-left: solid 1px #fff;
 	top: 0;
 }
 .photoshoot-grids .grid-2{
-	background:linear-gradient( rgba(0, 0, 0, 0.1) 100%, rgba(0, 0, 0, 0.1)100%),url("../img/photoshoots/3.jpg");
+	background-image:url("../img/photoshoots/3.jpg");
 	background-size: 100%;
     background-repeat: no-repeat;
 	width: 40.2%;
-	top: 54.7%;
+	top: 54.6%;
 	left: 0;
 	height: 45.3%;
 }
@@ -531,7 +531,7 @@ border-left: solid 1px #fff;
 	background-color: var(--primary-color-concept);
 }
 .photoshoot-grids .grid-6{
-	background:linear-gradient( rgba(0, 0, 0, 0.1) 100%, rgba(0, 0, 0, 0.1)100%),url("../img/photoshoots/1.jpg");
+	background-image:url("../img/photoshoots/1.jpg");
 	background-size: 100%;
     background-repeat: no-repeat;
 	width: 33%;
@@ -550,52 +550,24 @@ border-left: solid 1px #fff;
 	background-color: #b7b7b8;
 }
 .eventdecor-grid3 .grid-1{
-	background:linear-gradient( rgba(0, 0, 0, 0.1) 100%, rgba(0, 0, 0, 0.1)100%),url("../img/eventdecor/16.jpg");
+	background-image:url("../img/eventdecor/16.jpg");
 }
 .eventdecor-grid3 .grid-2{
-	background:linear-gradient( rgba(0, 0, 0, 0.1) 100%, rgba(0, 0, 0, 0.1)100%),url("../img/eventdecor/17.jpg");
+	background-image:url("../img/eventdecor/17.jpg");
 }
 .eventdecor-grid3 .grid-6{
-	background:linear-gradient( rgba(0, 0, 0, 0.1) 100%, rgba(0, 0, 0, 0.1)100%),url("../img/eventdecor/18.jpg");
+	background-image:url("../img/eventdecor/18.jpg");
 }
 .brandingdesign-grids3 .grid-1{
-	background:linear-gradient( rgba(0, 0, 0, 0.1) 100%, rgba(0, 0, 0, 0.1)100%),url("../img/brandingdesign/2.jpg");
+	background-image:url("../img/brandingdesign/2.jpg");
 }
 .brandingdesign-grids3 .grid-2{
-	background:linear-gradient( rgba(0, 0, 0, 0.1) 100%, rgba(0, 0, 0, 0.1)100%),url("../img/brandingdesign/1.jpg");
+	background-image:url("../img/brandingdesign/1.jpg");
 }
 .brandingdesign-grids3 .grid-6{
-	background:linear-gradient( rgba(0, 0, 0, 0.1) 100%, rgba(0, 0, 0, 0.1)100%),url("../img/brandingdesign/4.jpg");
+	background-image:url("../img/brandingdesign/4.jpg");
 }
 
-
-.branding-design-grids .grid-1{
-	background:linear-gradient( rgba(0, 0, 0, 0.1) 100%, rgba(0, 0, 0, 0.1)100%),url("../img/brandingdesign/2.jpg");
-	background-size: 100%;
-    background-position: center center;
-    background-repeat: no-repeat;
-	height: 40%;
-}
-.branding-design-grids .grid-2{
-	background:linear-gradient( rgba(0, 0, 0, 0.1) 100%, rgba(0, 0, 0, 0.1)100%),url("../img/brandingdesign/1.jpg");
-	background-size: 100%;
-    background-position: center center;
-    background-repeat: no-repeat;
-	top: 40%;
-    height: 24.6%;
-}
-.branding-design-grids .grid-5{
-	background:linear-gradient( rgba(0, 0, 0, 0.1) 100%, rgba(0, 0, 0, 0.1)100%),url("../img/brandingdesign/5.jpg");
-	background-size: 100% 100%;
-    background-position: center center;
-    background-repeat: no-repeat;
-}
-.branding-design-grids .grid-6{
-	background:linear-gradient( rgba(0, 0, 0, 0.1) 100%, rgba(0, 0, 0, 0.1)100%),url("../img/brandingdesign/4.jpg");
-	background-size: 100%;
-    background-position: center 28%;
-    background-repeat: no-repeat;
-}
 /* .prlinks-bx {
     background-color: #607973;
     width: 100%;
