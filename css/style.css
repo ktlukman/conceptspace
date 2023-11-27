@@ -189,8 +189,12 @@ body{
     width: 100%;
     font-size: 1.13rem;
 }
+.standalone-btn{
+	width: 23%;
+	background-color: var(--primary-color-concept);
+}
 .btn-cards:focus, .btn-cards:hover {
-    background-color: var(--primary-color-concept);;
+    background-color: var(--primary-color-concept);
 }
 .btn-cards.btn-check:checked+.btn, .btn-cards.btn.active, .btn-cards.btn.show, .btn-cards.btn:first-child:active, :not(.btn-cards)+.btn-cards.btn:active{
 	background-color: #607973;
@@ -319,7 +323,7 @@ border-left: solid 1px #fff;
 	border: none;
 	background-color: var(--fourth-color-concept) !important;
 	resize: none;
-	height: 70px;
+	height: 150px;
 }
 .gl-lg-items {
     background-color: #E3E3E3;
@@ -667,6 +671,9 @@ border-left: solid 1px #fff;
 		padding-left: 12px;
 		padding-right: 12px;
 	}
+	.standalone-btn{
+		width: 50%;
+	}
 }
 @media screen and (max-width: 767px) {
 	/* .navbar-concept {
@@ -816,6 +823,9 @@ border-left: solid 1px #fff;
 }
 .gl-ex-panel {
     min-height: 1300px;
+}
+.standalone-btn{
+	width: 100%;
 }
 }
 @media screen and (max-width: 372px) {
