@@ -41,7 +41,8 @@ body{
     top: 5px;
 }
 .navbar-concept .nav-item:last-child .nav-link {
-	cursor: default;
+    cursor: default;
+    padding: 0 6px 0 0;
 }
 .navbar-concept .nav-item:last-child .nav-link::after {
   width: 28px;
