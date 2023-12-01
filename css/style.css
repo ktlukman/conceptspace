@@ -675,6 +675,25 @@ border-left: solid 1px #fff;
 	.standalone-btn{
 		width: 50%;
 	}
+	.navbar-concept .navbar-collapse {
+		padding-top: 22px;
+	}
+	.phtsht-gry{
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	.gl-lg-items {
+		/* min-width: 150px; */
+		width: 100%;
+		display: flex;
+		align-items: center;
+		gap: 16px;
+		padding: 0 7px !important;
+		max-width: unset;
+	}
+	.ps-0-991{
+		padding-left: 0 !important;
+	}
 }
 @media screen and (max-width: 767px) {
 	/* .navbar-concept {
@@ -724,9 +743,9 @@ border-left: solid 1px #fff;
 	.gl-lg-items h1{
 	font-size: 3rem;
 }
-	.gl-lg-items {
+	/* .gl-lg-items {
     min-width: 150px;
-}
+} */
 .search-text-end {
     position: absolute;
     width: 100%;
@@ -828,7 +847,18 @@ border-left: solid 1px #fff;
 .standalone-btn{
 	width: 100%;
 }
+.gl-mobid {
+    max-height: 1000px;
 }
+.gl-mobid .grids {
+    background-size: 100% 100%;
+}
+}
+/* @media screen and (max-width: 484px) {
+.gl-mobid {
+    max-height: 1006px;
+}
+} */
 @media screen and (max-width: 372px) {
 	.search-text{
 		width: 50% !important;
@@ -847,6 +877,9 @@ border-left: solid 1px #fff;
 }
 	.search-text-end{
 		text-align: center !important;
+	}
+	.gl-mobid {
+		max-height: 800px;
 	}
 	.gl-ex-panel {
 		min-height: 1100px;
