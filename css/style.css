@@ -440,6 +440,9 @@ border-left: solid 1px #fff;
 .d-block-676{
 	display: none;
 }
+.d-flex-676{
+	display: none;
+}
 .custom-cards .card-body {
     display: flex;
     flex-direction: column;
@@ -659,11 +662,14 @@ border-left: solid 1px #fff;
 		padding-left:  5px !important;
 		padding-right: 5px !important;
 	}
-	.grid-body small {
+	/* .grid-body small {
 		font-size: 9px;
-	}
+	} */
 	.d-block-676{
 		display: block;
+	}
+	.d-flex-676{
+		display: flex;
 	}
 	.py-sm-ed{
 		padding: 0 20px;
@@ -690,10 +696,37 @@ border-left: solid 1px #fff;
 		gap: 16px;
 		padding: 0 7px !important;
 		max-width: unset;
+		justify-content: center;
 	}
 	.ps-0-991{
 		padding-left: 0 !important;
 	}
+	.gl-lg-items h6{
+		font-weight: 600;
+	}
+	.add-dark {
+		position: absolute;
+		background-color: rgba(0,0,0,0.3);
+		width: 100%;
+		height: 100%;
+		top: 0;
+		left: 0;
+	}
+	.footer {
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+	.grid-head{
+		display: none;
+	}
+	.grid-body{
+		display: inline;
+		font-size: 19px;
+	}
+	.grid-body small {
+		font-size: 13px;
+	}
+
 }
 @media screen and (max-width: 767px) {
 	/* .navbar-concept {
@@ -786,45 +819,55 @@ border-left: solid 1px #fff;
 }
 .gl-ex-panel {
     padding: 0 0;
-    min-height: 1599px;
+    min-height: 927px;
+}
+.grids{
+	padding: 0 15px;
 }
 .grid-1 {
-    width: 100%;
-	height: 23.6%;
-	background-position: center;
+    width: 60.1%;
+	height: 33.3%;
+	background-image: url("../img/mobonly/1.jpg");
+	background-size: 100% 100%;
 }
 .grid-5 {
     left: unset;
-    top: 23.6%;
-    width: 50%;
-    height: 8.6%;
+    top: 0;
+    width: 39.9%;
+    height: 21.1%;
     right: 0;
+	background-image: url("../img/mobonly/2.jpg");
+	background-size: 100% 100%;
 }
 .grid-6 {
     left: unset;
-    top: 32.2%;
-    width: 50%;
-    height: 16.8%;
+    top: 21.1%;
+    width: 39.9%;
+    height: 48.9%;
     right: 0;
+	background-image: url("../img/mobonly/3.jpg");
+	background-size: 100% 100%;
 }
 .grid-7 {
     left: unset;
-    top: 49%;
-    width: 50%;
-    height: 9.1%;
+    top: 69.9%;
+    width: 49.9%;
+    height: 30.3%;
     right: 0;
 }
 .grid-3 {
     left: 0;
-    top: 23.6%;
-    width: 50%;
-    height: 20.5%;
+    top: 33.3%;
+    width: 60.1%;
+    height: 36.6%;
 }
 .grid-4 {
     left: 0;
-    top: 44.1%;
-    width: 50%;
-    height: 14%;
+    top: 69.9%;
+    width: 50.1%;
+    height: 30.1%;
+	background-image: url("../img/mobonly/4.jpg");
+	background-size: 100% 100%;
 }
 .grid-2 {
     width: 100%;
@@ -841,17 +884,24 @@ border-left: solid 1px #fff;
 .py-sm-ed{
 	padding: 0 60px;
 }
-.gl-ex-panel {
-    min-height: 1300px;
-}
 .standalone-btn{
 	width: 100%;
 }
 .gl-mobid {
     max-height: 1000px;
 }
-.gl-mobid .grids {
+/* .gl-mobid .grids {
     background-size: 100% 100%;
+} */
+.search-text-end {
+    left: unset;
+    top: 0;
+    min-height: 145px;
+    justify-content: end;
+    right: 65px;
+}
+.flex-wrap-no-wrap-mob .col{
+	width: 85%;
 }
 }
 /* @media screen and (max-width: 484px) {
@@ -859,6 +909,22 @@ border-left: solid 1px #fff;
     max-height: 1006px;
 }
 } */
+@media screen and (max-width: 500px) {
+	.search-text-end {
+		min-height: 132px;
+	}
+}
+@media screen and (max-width: 450px) {
+	.search-text-end {
+		min-height: 109px;
+	}
+	.header-logo {
+		margin-top: -17px;
+	}
+	.navbar-concept .navbar-toggler {
+		margin-top: -39px;
+	}
+}
 @media screen and (max-width: 372px) {
 	.search-text{
 		width: 50% !important;
@@ -866,22 +932,22 @@ border-left: solid 1px #fff;
 .input-group-custom .form-control {
     font-size: 11px;
 }
-.search-text-end {
-    left: 24px;
-}
 .social-links {
     width: 27px;
     height: 27px;
     line-height: 25px;
     margin-right: 7px !important;
 }
-	.search-text-end{
-		text-align: center !important;
-	}
 	.gl-mobid {
 		max-height: 800px;
 	}
 	.gl-ex-panel {
 		min-height: 1100px;
+	}
+	.navbar-concept .navbar-toggler {
+		margin-top: -34px;
+	}
+	.search-text-end {
+		min-height: 81px;
 	}
 }
