@@ -83,7 +83,7 @@ const dropdownList = [...dropdownElementList].map(dropdownToggleEl => new bootst
       
 	
 });
-
+//alert($(document).width());
 
 
 

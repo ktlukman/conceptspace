@@ -713,8 +713,9 @@ border-left: solid 1px #fff;
 		left: 0;
 	}
 	.footer {
-		padding-left: 20px;
-		padding-right: 20px;
+		padding-left: 10px;
+		padding-right: 10px;
+		margin-top: 22px !important;
 	}
 	.grid-head{
 		display: none;
@@ -722,9 +723,25 @@ border-left: solid 1px #fff;
 	.grid-body{
 		display: inline;
 		font-size: 19px;
+		line-height: 21px;
 	}
 	.grid-body small {
 		font-size: 13px;
+	}
+	.introduction.pt-5, .scroll-banner.pt-5, .scroll-banner2.pt-5, .subscribe.pt-5 {
+		padding-top: 20px !important;
+	}
+	.flex-wrap-no-wrap-mob {
+		padding: 0 0 15px 0 !important;
+	}
+	hr {
+		margin: 8px 0 0 0;
+	}
+	.terms-nav .nav-item .nav-link {
+		padding: 0 10px;
+	}
+	.copyright-text{
+		padding-top: 5px;
 	}
 
 }
@@ -901,7 +918,7 @@ border-left: solid 1px #fff;
     right: 65px;
 }
 .flex-wrap-no-wrap-mob .col{
-	width: 85%;
+	width: 78%;
 }
 }
 /* @media screen and (max-width: 484px) {
@@ -923,6 +940,16 @@ border-left: solid 1px #fff;
 	}
 	.navbar-concept .navbar-toggler {
 		margin-top: -39px;
+	}
+}
+@media screen and (max-width: 420px) {
+	.search-text-end {
+		min-height: 96px;
+	}
+}
+@media screen and (max-width: 400px) {
+	.search-text-end {
+		min-height: 90px;
 	}
 }
 @media screen and (max-width: 372px) {
