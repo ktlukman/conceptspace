@@ -629,6 +629,9 @@ border-left: solid 1px #fff;
 	margin-bottom: 0 !important;
 	padding: 0 !important;
 }
+.logos-brands img{
+	width: 100px;
+}
 @media screen and (max-width: 1528px) {
 	.navbar-concept .nav-item .nav-link {
 		padding: 0 40px 3px 40px;
@@ -749,7 +752,29 @@ border-left: solid 1px #fff;
 	.copyright-text{
 		padding-top: 5px;
 	}
+	.logos-brands img{
+		width: 130px;
+	}
+	html,body{
+		overflow-y: scroll;
+		overflow-x: hidden;
+	}
+	.prlinks-bx h5 {
+		padding: 18px 10px;
+	}
 
+	.prlinks-bx img {
+    padding: 15px 0;
+}
+.hello-form .gy-4{
+	--bs-gutter-y: 0;
+}
+.hello-form .mb-5 {
+    margin-bottom: 2.2rem!important;
+}
+.textareas {
+    height: 103px;
+}
 }
 @media screen and (max-width: 767px) {
 	/* .navbar-concept {
@@ -926,6 +951,15 @@ border-left: solid 1px #fff;
 .flex-wrap-no-wrap-mob .col{
 	width: 78%;
 }
+.logos-brands.flex-wrap-no-wrap-mob{
+	justify-content: left !important;
+}
+.logos-brands.flex-wrap-no-wrap-mob .col-4{
+	width: 44%;
+}
+.gl-ex-panel {
+    min-height: 619px;
+}
 }
 /* @media screen and (max-width: 484px) {
 .gl-mobid {
@@ -965,6 +999,11 @@ border-left: solid 1px #fff;
 	}
 	.grid-body small {
 		font-size: 12px;
+	}
+}
+@media screen and (max-width: 384px) {
+	.search-text-end {
+		min-height: 83px;
 	}
 }
 @media screen and (max-width: 372px) {
