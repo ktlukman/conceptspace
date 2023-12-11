@@ -728,14 +728,17 @@ border-left: solid 1px #fff;
 	.grid-body small {
 		font-size: 13px;
 	}
-	.introduction.pt-5, .scroll-banner.pt-5, .scroll-banner2.pt-5, .subscribe.pt-5 {
+	.introduction.pt-5, .scroll-banner.pt-5, .scroll-banner2.pt-5, .subscribe.pt-5, .blogcards.pt-5 {
 		padding-top: 20px !important;
+	}
+	.banner2.pt-5 {
+		padding-top: 30px !important;
 	}
 	.flex-wrap-no-wrap-mob {
 		padding: 0 0 15px 0 !important;
 	}
 	hr {
-		margin: 8px 0 0 0;
+		margin: 23px 0 0 0;
 	}
 	.terms-nav .nav-item .nav-link {
 		padding: 0 10px;
@@ -950,6 +953,15 @@ border-left: solid 1px #fff;
 @media screen and (max-width: 400px) {
 	.search-text-end {
 		min-height: 90px;
+	}
+	.gl-ex-panel {
+		min-height: 525px;
+	}
+	.grid-body {
+		font-size: 16px;
+	}
+	.grid-body small {
+		font-size: 12px;
 	}
 }
 @media screen and (max-width: 372px) {
