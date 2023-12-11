@@ -715,15 +715,15 @@ border-left: solid 1px #fff;
 	.footer {
 		padding-left: 10px;
 		padding-right: 10px;
-		margin-top: 22px !important;
+		margin-top: 30px !important;
 	}
 	.grid-head{
 		display: none;
 	}
 	.grid-body{
-		display: inline;
+		display: inline-block;
 		font-size: 19px;
-		line-height: 21px;
+		line-height: 16px;
 	}
 	.grid-body small {
 		font-size: 13px;
@@ -731,8 +731,11 @@ border-left: solid 1px #fff;
 	.introduction.pt-5, .scroll-banner.pt-5, .scroll-banner2.pt-5, .subscribe.pt-5, .blogcards.pt-5 {
 		padding-top: 20px !important;
 	}
-	.banner2.pt-5 {
+	.subscribe.pt-5{
 		padding-top: 30px !important;
+	}
+	.banner2.pt-5 {
+		padding-top: 28px !important;
 	}
 	.flex-wrap-no-wrap-mob {
 		padding: 0 0 15px 0 !important;
