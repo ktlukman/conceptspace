@@ -675,7 +675,7 @@ border-left: solid 1px #fff;
 		display: flex;
 	}
 	.py-sm-ed{
-		padding: 0 20px;
+		padding: 0 5px;
 	}
 	.introduction{
 		padding-left: 12px;
@@ -761,6 +761,7 @@ border-left: solid 1px #fff;
 	}
 	.prlinks-bx h5 {
 		padding: 18px 10px;
+		background-color: var(--fourth-color-concept);
 	}
 
 	.prlinks-bx img {
@@ -774,6 +775,16 @@ border-left: solid 1px #fff;
 }
 .textareas {
     height: 103px;
+}
+.press-section .pb-3{
+	padding-bottom: 0 !important;
+	margin-bottom: 0 !important;
+}
+.hello-form {
+    padding: 30px 30px 30px 30px;
+}
+.brand-logos-intro p{
+	margin-bottom: 0;
 }
 }
 @media screen and (max-width: 767px) {
@@ -929,9 +940,6 @@ border-left: solid 1px #fff;
 }
 }
 @media screen and (max-width: 572px) {
-.py-sm-ed{
-	padding: 0 60px;
-}
 .standalone-btn{
 	width: 100%;
 }
@@ -955,7 +963,7 @@ border-left: solid 1px #fff;
 	justify-content: left !important;
 }
 .logos-brands.flex-wrap-no-wrap-mob .col-4{
-	width: 44%;
+	width: 30%;
 }
 .gl-ex-panel {
     min-height: 619px;
