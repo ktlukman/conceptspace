@@ -935,6 +935,23 @@ border-left: solid 1px #fff;
     /* bottom: 0; */
     top: 58.1%;
 }
+.interior-grid .grid-1{
+	background-image: url("../img/mobonly/5.jpg");
+}
+.interior-grid .grid-5{
+	background-image: url("../img/mobonly/6.jpg");
+}
+.interior-grid .grid-6{
+	background-image: url("../img/mobonly/7.jpg");
+}
+.interior-grid .grid-4{
+	background-image: url("../img/mobonly/8.jpg");
+	background-position: bottom center;
+}
+.interior-grid .grid-7{
+	background-image: url("../img/mobonly/9.jpg");
+	background-size: 100% 100%;
+}
 .gl-mobid{
 		max-height: 1230px;
 }
@@ -1008,6 +1025,16 @@ border-left: solid 1px #fff;
 	.grid-body small {
 		font-size: 12px;
 	}
+	/* .interior-grid.gl-ex-panel {
+		min-height: 360px;
+	}
+	.interior-grid .grid-5 {
+		height: 33.2%;
+	}
+	.interior-grid .grid-6 {
+		height: 37%;
+		top: 33%;
+	} */
 }
 @media screen and (max-width: 384px) {
 	.search-text-end {
@@ -1030,9 +1057,9 @@ border-left: solid 1px #fff;
 	.gl-mobid {
 		max-height: 800px;
 	}
-	.gl-ex-panel {
+	/* .gl-ex-panel {
 		min-height: 1100px;
-	}
+	} */
 	.navbar-concept .navbar-toggler {
 		margin-top: -34px;
 	}
