@@ -1100,6 +1100,9 @@ border-left: solid 1px #fff;
 		height: 37%;
 		top: 33%;
 	} */
+	.eventdecor-grid3 {
+		min-height: 487px;
+	}
 }
 @media screen and (max-width: 384px) {
 	.search-text-end {
