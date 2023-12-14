@@ -693,13 +693,16 @@ border-left: solid 1px #fff;
 	}
 	.gl-lg-items {
 		/* min-width: 150px; */
-		width: 50%;
+		width: 42%;
 		display: flex;
 		align-items: center;
-		gap: 16px;
-		padding: 0 7px !important;
+		gap: 10px;
+		padding: 0 0 !important;
 		max-width: unset;
 		justify-content: center;
+	}
+	.gl-lg-items2 {
+		width: 54%;
 	}
 	.ps-0-991{
 		padding-left: 0 !important;
@@ -799,6 +802,50 @@ border-left: solid 1px #fff;
 }
 .pt-3-sm{
 	padding-top: 20px;
+}
+.gl-lg-items h1, .gl-lg-items h6 {
+    margin: 0;
+}
+.veg-gallery-cards .card-body{
+	justify-content: left;
+}
+.veg-gallery-cards .card-body a{
+position: absolute;
+    left: 0;
+    bottom: 0;
+	margin: 0 15px 10px 15px;
+    width: 83%;
+	font-size: 11.5px;
+}
+/* .gallery-cards-ind{
+	min-height: 68px;
+}
+.proprentel-dxz{
+	min-height: 102px;
+}
+.venuedesign-cardfef{
+	min-height: 170px;
+} */
+.veg-gallery-cards h5{
+	font-size: 14px;
+}
+.veg-gallery-cards p{
+	line-height: 17px;
+	font-size: 12px;
+	margin-bottom: 30px;
+}
+.subscribe-formgd {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.subscribe-formgd input {
+    width: unset;
+    margin-top: -2px;
+    width: 50%;
+}
+.subscribe-formgd button {
+    padding: 8.2px 16px;
 }
 }
 @media screen and (max-width: 767px) {
