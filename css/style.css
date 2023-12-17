@@ -870,6 +870,9 @@ position: absolute;
     display: block;
 	line-height: 27px;
 }
+.grid-body small a {
+    font-weight: 400;
+}
 }
 @media screen and (max-width: 767px) {
 	/* .navbar-concept {
