@@ -632,6 +632,19 @@ border-left: solid 1px #fff;
 .logos-brands img{
 	width: 100px;
 }
+@media only screen and (min-width: 1700px) and (max-width: 4000px) {
+	.navbar-concept .navbar-collapse {
+		margin: 0 125px;
+	}
+	.hello-form .g-4, .hello-form .gy-4 {
+		--bs-gutter-y: 3.4rem;
+	}
+}
+@media only screen and (min-width: 1601px) and (max-width: 1700px) {
+	.navbar-concept .navbar-collapse {
+		margin: 0 75px;
+	}
+}
 @media screen and (max-width: 1528px) {
 	.navbar-concept .nav-item .nav-link {
 		padding: 0 40px 3px 40px;
