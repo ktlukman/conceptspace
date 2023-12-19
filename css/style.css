@@ -879,6 +879,12 @@ position: absolute;
 .grid-body small {
   display: none;
 }
+.photoshoot-grids .grid-body small {
+	display: block;
+  }
+  .photoshoot-grids .grid-body small .d-none-676 {
+	display: none;
+  }
 .grid-body .link-collage {
     display: block;
 	line-height: 27px;
@@ -1225,6 +1231,19 @@ position: absolute;
 	}
 	.search-text-end {
 		min-height: 81px;
+	}
+}
+@media screen and (max-width: 362px) {
+	/* .veg-gallery-cards p {
+		margin-bottom: 50px;
+	} */
+	.veg-gallery-cards .card-body a {
+		font-size: 11px;
+	}
+}
+@media screen and (max-width: 352px) {
+	.veg-gallery-cards .card-body a {
+		font-size: 10.5px;
 	}
 }
 /* @media screen and (max-width: 365px) {
