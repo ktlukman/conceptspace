@@ -22,7 +22,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 
     // Additional email to the person who filled the form
     $userSubject = "Thank you for your submission, $name!";
-    $userMessage = "Dear $name,\n\nThank you for contacting us. We have received your message and will get back to you soon.\n\nBest regards,\nYour Company";
+    $userMessage = "Dear $name,\n\nThank you for contacting us. We have received your message and will get back to you soon.\n\nBest regards,\nConcept Space";
 
     if (mail($email, $userSubject, $userMessage)) {
         echo "Email sent to user successfully!";
