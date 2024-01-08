@@ -29,6 +29,28 @@ $(document).ready(function(){
           });
         }
       });
+
+      $("#subscribe-formgd").submit(function(event) {
+        event.preventDefault();
+        
+        
+            
+            if (this.checkValidity()) {
+              // Serialize the form data
+              var formData = $(this).serialize();
+              
+              // Send a POST request to the PHP script
+              $.ajax({
+                type: "POST",
+                url: "./subscribe.php", // Replace with your PHP script URL
+                data: formData,
+                success: function(response) {
+                  // Handle the response from the PHP script (e.g., display a success message)
+                  console.log("s"+response);
+                }
+              });
+            }
+          });
 	
       //$(".custom-dropdown, .dropdown-toggle").popover({ trigger: "hover" });
      
