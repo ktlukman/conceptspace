@@ -632,6 +632,17 @@ border-left: solid 1px #fff;
 .logos-brands img{
 	width: 100px;
 }
+.w-auto{
+	width: auto;
+}
+.add-dark {
+	position: absolute;
+	background-color: rgba(0,0,0,0.5);
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+}
 @media only screen and (min-width: 1700px) and (max-width: 4000px) {
 	.navbar-concept .navbar-collapse {
 		margin: 0 125px;
@@ -739,14 +750,7 @@ border-left: solid 1px #fff;
 	.gl-lg-items h6{
 		font-weight: 600;
 	}
-	.add-dark {
-		position: absolute;
-		background-color: rgba(0,0,0,0.5);
-		width: 100%;
-		height: 100%;
-		top: 0;
-		left: 0;
-	}
+	
 	.footer {
 		padding-left: 10px;
 		padding-right: 10px;
