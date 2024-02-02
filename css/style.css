@@ -1059,7 +1059,8 @@ position: absolute;
 	background-image: url("../img/mobonly/7.jpg");
 }
 .interior-grid .grid-4{
-	background-image: url("../img/mobonly/8.jpg");
+	/* background-image: url("../img/mobonly/8.jpg"); */
+	background-image: url("../img/mobonly/22.jpg");
 	background-position: bottom center;
 }
 .interior-grid .grid-7{
