@@ -3,7 +3,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     // Collect form data
     $email = $_POST["email"];
     // Define multiple recipients
-    $to = "newsletter@conceptspacestudio.com";
+    $to = "newsletter@conceptspace.ae";
     
     $subject = "New Subscription Recieved from $email";
     $messageBody = "Hi, a new NewsLetter request recieved from $email.";

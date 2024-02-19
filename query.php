@@ -8,7 +8,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     $message = $_POST["message"];
 
     // Define multiple recipients
-    $to = "hello@conceptspacestudio.com";
+    $to = "hello@conceptspace.ae";
     
     $subject = "New Form Submission from $name $lastName";
     $messageBody = "Name: $name $lastName\nEmail: $email\nPhone Number: $phoneNumber\nMessage: $message";
